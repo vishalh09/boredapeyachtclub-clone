@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  font-family: "Gilroy";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+  margin: 8px 60px;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.header_logo img {
+  width: 200px;
+  cursor: pointer;
+}
+.header_main {
+  width: 60%;
+}
+.header_links {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  gap: 30px;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 500;
+}
+.header_link:hover {
+  color: yellow;
+}
+.header_link-wrap .fa-brands {
+  font-size: 16px;
+}
+
+.hero-section img {
+  width: 100%;
+  height: 100vh;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+.content-1 {
+  margin-top: 5px;
+  width: 60%;
+}
+.content-1 h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+.content-1 p {
+  font-size: 18px;
+  text-align: justify;
+}
+.img-col img {
+  max-width: 360px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: yellow;
+  width: 100%;
+  height: 100px;
+  color: #000;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  top: 50px;
+  bottom: 40px;
+}
+.banner h2 {
+  font-size: 28px;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.banner p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.banner button {
+  background-color: #000;
+  color: yellow;
+  padding: 10px 50px;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.banner button:hover {
+  background-color: #fff;
+  color: #000;
+  border: none;
+}
+.img-col2 img {
+  width: 360px;
+  border-radius: 12px;
+}
+.section-2 {
+  padding: 10px;
+}
+.part1-2 {
+  max-width: 75%;
+}
+.part1-2 h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.part1-2 p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.part2-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px 15px;
+}
+.part2-2 .sec2 {
+  max-width: 20%;
+  gap: 10px;
+}
+.part2-2 .sec2 img {
+  width: 120px;
+  margin: 7px 20px;
+  padding: 0px 15px;
+}
+.part2-2 .sec2 p {
+  padding: 10px 20px;
+  text-align: center;
+  gap: 10px;
+  font-size: 16px;
+}
+.img-col3 img {
+  width: 160px;
+  padding-right: 90px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-right: 60px;
+}
+.buttons button {
+  background-color: yellow;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px;
+  border: none;
+  border-radius: 6px;
+  width: 160%;
+}
+.content-1 p span {
+  color: yellow;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fpart1 h3 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: rgb(202, 188, 188);
+}
+.fpart1 div {
+  display: flex;
+}
+.fpart1 div i {
+  font-size: 12px;
+  background-color: gray;
+  color: #fff;
+  align-items: center;
+  padding: 8px;
+}
+.fpart1 #finput {
+  width: 100%;
+  border: none;
+  padding: 8px;
+  background-color: rgb(163, 157, 157);
+  color: #fff;
+}
+
+.fpart2 img {
+  width: 240px;
+}
+
+.fpart3 {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.fpart3 ul {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.fpart3 ul li a:hover {
+  color: rgb(192, 192, 182);
+}
+.fpart3 p {
+  font-size: 12px;
+  font-weight: 600;
+}
+.fpart3 a {
+  font-size: 12px;
+  font-weight: 500;
+  color: yellow;
+}
+
+/*  gallery section  */
+.gh1 {
+  margin: 14px 40px;
+}
+.gallery-sec {
+  margin: 0 40px;
+  display: flex;
+  padding-top: 20px;
+}
+.gallery1 {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 35px;
+}
+.gallery1 select {
+  background: transparent;
+  color: yellow;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.gallery1 button {
+  background-color: yellow;
+  color: black;
+  width: 200px;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.gallery1 button:hover {
+  color: #000;
+  background-color: aliceblue;
+}
+.gallery2 {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+.gallery2 img {
+  width: 280px;
+  cursor: pointer;
+}
